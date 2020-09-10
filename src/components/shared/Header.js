@@ -12,7 +12,7 @@ export default function Header() {
           <div className="logo-section">
             <Link to="/">
               {" "}
-              <img src={LogoImg} width="40%" />
+              <img src={LogoImg} />
             </Link>{" "}
           </div>
           <div className="menu-section">

@@ -253,9 +253,28 @@ table {
         }
       }
       @media screen and (max-width: 350px) {
-        // .logo-section {
-        //   flex: 1;
-        // }
+        .wrapper {
+          width: 100%;
+        }
+        .header-wrapper {
+          flex-direction: column;
+          background-color: red;
+          padding-left: 0px;
+          margin-right: 3rem;
+        }
+
+        .logo-section {
+          padding-left: 0px;
+          // align-items: left;
+          // background-color: red;
+          // flex: 1;
+          // align-items: left;
+          // justify-content: left;
+
+          img {
+            width: 140%;
+          }
+        }
         .menu-section {
           .page-links {
             li {
@@ -438,9 +457,39 @@ table {
               margin-left: 7rem;
             }
           }
-          @media screen and (max-width: 350px) {
+        }
+      }
+      @media screen and (max-width: 350px) {
+        .profile-section {
+          .profile-wrapper {
+            .profile-img {
+              padding-left: 0rem;
+              img {
+                max-width: 110px;
+                max-height: 110px;
+              }
+            }
+          }
+          .profile-text {
+            h3 {
+              font-size: 10px;
+              padding-left: 1.2rem !important;
+            }
+            a {
+              margin-left: 1rem !important;
+            }
+          }
+        }
+        .description-section {
+          .description-wrapper {
+            .description-text {
+              margin-left: 0rem;
+            }
+            .social-wrapper {
+              margin: 40px 20px 10px 30px;
+            }
             .social-link {
-              font-size: 25px;
+              font-size: 20px;
             }
           }
         }
@@ -632,16 +681,16 @@ table {
   }
   @media screen and (max-width: 350px) {
     .wrapper {
+      width: 100%;
       .footer-wrapper {
         .footer-menu {
           width: 100%;
         }
       }
       .social-wrapper {
-        .social-link {
-          width: 80%;
-          font-size: 20px;
-        }
+      }
+      .social-link {
+        width: 80% !important;
       }
     }
   }
