@@ -252,30 +252,30 @@ table {
           }
         }
       }
-      @media screen and (max-width: 350px) {
-        .wrapper {
-          width: 100%;
-        }
-        .header-wrapper {
-          flex-direction: column;
-          background-color: red;
-          padding-left: 0px;
-          margin-right: 3rem;
-        }
+    }
+    @media screen and (max-width: 350px) {
+      width: 100%;
+
+      .header-wrapper {
+        flex-direction: column;
+
+        width: 95%;
+        margin: auto;
 
         .logo-section {
-          padding-left: 0px;
-          // align-items: left;
-          // background-color: red;
-          // flex: 1;
-          // align-items: left;
-          // justify-content: left;
+          width: 30%;
+          display: flex;
+
+          padding-right: 10px;
+          margin-left: 4.8rem;
 
           img {
-            width: 140%;
+            width: 140% !important;
           }
         }
         .menu-section {
+          width: 100%;
+          display: flex;
           .page-links {
             li {
               font-size: 15px;
@@ -298,14 +298,14 @@ table {
           }
         }
       }
+    }
 
-      @media screen and (min-width: 720px) {
-        .logo-section {
-          flex: 1;
-        }
-        .menu-section {
-          flex: 1;
-        }
+    @media screen and (min-width: 720px) {
+      .logo-section {
+        flex: 1;
+      }
+      .menu-section {
+        flex: 1;
       }
     }
   }
@@ -444,9 +444,16 @@ table {
           }
           .social-wrapper {
             margin: 40px 20px 10px 50px;
-          }
-          .social-link {
-            font-size: 35px;
+
+            .social-link {
+              font-size: 35px;
+            }
+
+            @media screen and (max-width: 378px) {
+              .social-link {
+                font-size: 20px;
+              }
+            }
           }
           @media screen and (min-width: 475px) {
             .description-text {
@@ -484,12 +491,6 @@ table {
           .description-wrapper {
             .description-text {
               margin-left: 0rem;
-            }
-            .social-wrapper {
-              margin: 40px 20px 10px 30px;
-            }
-            .social-link {
-              font-size: 20px;
             }
           }
         }
