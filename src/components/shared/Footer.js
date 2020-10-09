@@ -18,7 +18,12 @@ const Footer = () => {
             <div className="copyright-section">
               <h4>Saroj Adhikari</h4>
               <p>Copyright &copy;, 2020. All rights reserved.</p>
-              <p>Powered by: React, Gatsby, Netlify, NodeJS</p>
+              <p>
+                Powered by: <a href="https://reactjs.org/"> React, </a>
+                <a href="https://www.gatsbyjs.com/">Gatsby, </a>{" "}
+                <a href="https://www.netlify.com/"> Netlify, </a>{" "}
+                <a href="https://nodejs.org/en/">NodeJS</a>
+              </p>
             </div>
           </div>
         </div>

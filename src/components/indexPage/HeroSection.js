@@ -1,5 +1,6 @@
 import React from "react"
 import { FaRegBell } from "react-icons/fa"
+import Resume from "../../assets/Resume.pdf"
 import profile from "../../images/hero-img.jpg"
 import SocialLinks from "../shared/SocialLinks"
 
@@ -36,10 +37,10 @@ export default function HeroSection() {
                   passion on cybersecurity and enjoy my writing.
                 </p>
                 <div className="description-btn">
-                  <a href="/" className="btn">
-                    About Me
+                  <a href="/about" className="btn">
+                    More About Me
                   </a>
-                  <a href="/" className="btn">
+                  <a target="_blank" href={Resume} className="btn">
                     Resume
                   </a>
                 </div>

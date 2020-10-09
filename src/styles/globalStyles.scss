@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,400&display=swap");
+
 /* CSS Reset code */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -711,6 +714,15 @@ table {
         p {
           margin: 0 0 10px;
         }
+        a {
+          color: rgb(243, 232, 232);
+
+          text-decoration: none;
+
+          &:hover {
+            color: rgb(38, 139, 206);
+          }
+        }
       }
     }
   }
@@ -739,4 +751,177 @@ table {
   //     }
   //   }
   // }
+}
+
+//About-Page styling starts here
+
+//about hero section styling starts here
+
+.about-section {
+  // background-image: url("../images/about.jpg");
+  // background-position: center;
+  background-color: rgba(233, 224, 224, 0.808);
+  // background-color: red;
+
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .description-section {
+      width: 40%;
+      padding-left: 100px;
+      // background-color: green;
+      text-align: center;
+      font-family: "Fira Sans", sans-serif;
+
+      h1 {
+        padding-top: 5rem;
+        font-size: 50px;
+        text-decoration: overline;
+        font-weight: 400;
+        padding-bottom: 20px;
+      }
+
+      span {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        padding-bottom: 20px;
+        color: #ad9f9f;
+        font-size: 22px;
+      }
+
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .social-wrapper {
+        margin: 40px 20px 0px 100px;
+        // background-color: red;
+
+        .social-link {
+          font-size: 40px;
+        }
+        h1 {
+          font-family: "Fira Sans", sans-serif;
+          font-size: 20px;
+          text-decoration: underline;
+          padding-top: 0px;
+          padding-bottom: 10px;
+          padding-left: 100px;
+          text-align: left;
+        }
+      }
+    }
+
+    .image-section {
+      width: 53%;
+      // height: 100%;
+
+      padding-top: 10px;
+      // background-color: red;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.about-description {
+  background-color: rgb(233, 224, 227);
+  // background-color: red;
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    // background-color: green;
+    background-color: rgba(239, 235, 241, 0.973);
+    padding-top: 50px;
+    h1 {
+      font-size: 30px;
+      text-decoration: underline;
+      font-weight: 400;
+      color: #533939;
+      padding-bottom: 10px;
+    }
+
+    .skills-section {
+      // text-align: center;
+      padding-bottom: 40px;
+      padding-left: 40px;
+      font-family: "Fira Sans", sans-serif;
+
+      ul {
+        // background-color: red;
+        font-family: "Poppins", sans-serif;
+        li {
+          margin: 15px;
+          list-style-type: square;
+          // background-color: green;
+          font-weight: 300;
+          font-size: 20px;
+
+          em {
+            font-family: "Fira Sans", sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 21px;
+          }
+          span {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    .resume-section {
+      padding-bottom: 40px;
+      padding-left: 40px;
+      font-family: "Fira Sans", sans-serif;
+
+      p {
+        font-family: "Poppins", sans-serif;
+        margin: 15px;
+        font-weight: 300;
+        font-size: 20px;
+        padding-bottom: 5px;
+      }
+
+      a {
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        margin-left: 130px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 5px;
+
+        color: rgb(12, 0, 0);
+        background-color: rgb(231, 212, 212);
+        text-align: center;
+        transform: translate(0, 0px);
+        color: rgb(11, 80, 126);
+
+        &:hover {
+          background-color: rgb(204, 195, 195);
+          color: rgb(255, 255, 255);
+
+          // transform: rotate(0deg) skew(0deg) translate(0, -10px);
+        }
+      }
+    }
+    .website-section {
+      padding: 40px;
+
+      p {
+        font-family: "Poppins", sans-serif;
+        margin: 15px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.5;
+        // padding-bottom: 5px;
+      }
+    }
+  }
 }
