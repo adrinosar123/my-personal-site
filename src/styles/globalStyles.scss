@@ -2,12 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,400&display=swap");
 
 /* CSS Reset code */
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -921,6 +919,70 @@ table {
         font-size: 20px;
         line-height: 1.5;
         // padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+//Contact page styles starts here
+
+.about-section {
+  background-color: rgb(233, 224, 227);
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    background-color: rgba(239, 235, 241, 0.973);
+
+    .description-section {
+      // background-color: greens;
+      justify-items: center;
+      font-family: "Fira Sans", sans-serif;
+      h1 {
+        padding-top: 5rem;
+        font-size: 50px;
+        text-decoration: overline;
+        font-weight: 400;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .form-section {
+        // background-color: green;
+        input[type="text"],
+        select,
+        textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+      }
+    }
+    .social-wrapper {
+      margin: 40px 20px 0px 500px;
+      // text-align: center;
+      // background-color: red;
+
+      .social-link {
+        font-size: 40px;
+      }
+      h2 {
+        font-family: "Fira Sans", sans-serif;
+        font-size: 30px;
+        text-decoration: underline;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        text-align: left;
       }
     }
   }
