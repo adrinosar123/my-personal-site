@@ -257,7 +257,7 @@ table {
         }
       }
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (min-width: 100px) {
       .header-wrapper {
         .logo-section {
           padding-left: 4rem;
