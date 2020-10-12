@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="wrapper">
         <div className="about-wrapper">
           <div className="description-section">
-            <h1>about Me</h1>
+            <h1>About Me</h1>
 
             <span>
               I'm a professional network engineer from Melbourne,Australia. I am

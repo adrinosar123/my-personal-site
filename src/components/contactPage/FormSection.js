@@ -4,12 +4,13 @@ import React from "react"
 export default function FormSection() {
     return(
         <div className= "form-section">
+        
                 <form action="/action_page.php">
-                    <label for="fname">FirstName</label>
+                    <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your first name...">
                         </input>
 
-                        <label for="lname">LastName</label>
+                        <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
                         </input>
@@ -23,7 +24,7 @@ export default function FormSection() {
                     <textarea id="message" name="message" placeholder="Your Message..." 
                         
                       />
-                      <input type="submit" value="submit"></input>
+                      <button type="submit" value="submit">submit</button>
                         
                         </form> 
                         </div>

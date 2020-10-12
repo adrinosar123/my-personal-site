@@ -5,7 +5,7 @@ import SocialLinks from "../shared/SocialLinks"
 
 export default function AboutSection() {
     return(
-        <section className="about-section">
+        <section className="contact-section">
             <div className="wrapper"> 
       
           <div className="description-section">

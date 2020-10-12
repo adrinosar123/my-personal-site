@@ -214,7 +214,7 @@ table {
       .logo-section {
         width: 30%;
         // background-color: blue;
-        padding-left: 5rem;
+        // padding-left: 5rem;
         img {
           width: 135px;
         }
@@ -257,6 +257,175 @@ table {
         }
       }
     }
+    @media screen and (max-width: 400px) {
+      .header-wrapper {
+        .logo-section {
+          img {
+            width: 145px;
+          }
+        }
+        .menu-section {
+          padding-top: 0px;
+          width: 100%;
+
+          // .page-links {
+          //   li {
+          //     font-size: 16px;
+          //   }
+          // }
+        }
+      }
+    }
+    @media screen and (min-width: 401px) {
+      .header-wrapper {
+        .logo-section {
+          padding-left: 8rem;
+          img {
+            width: 145px;
+          }
+        }
+        .menu-section {
+          padding-top: 0px;
+          width: 100%;
+
+          .page-links {
+            li {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .header-wrapper {
+        .logo-section {
+          padding-left: 2rem;
+          width: 2%;
+          img {
+            width: 125px;
+          }
+        }
+        .menu-section {
+          padding-top: 60px;
+          width: 70%;
+
+          .page-links {
+            li {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .header-wrapper {
+        .logo-section {
+          padding-left: 3rem;
+          // width: 2%;
+          // img {
+          //   width: 125px;
+          // }
+        }
+        .menu-section {
+          // padding-top: 60px;
+          width: 60%;
+
+          .page-links {
+            li {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 900px) {
+      .header-wrapper {
+        .logo-section {
+          padding-left: 5rem;
+
+          img {
+            width: 135px;
+          }
+        }
+        .menu-section {
+          padding-top: 50px;
+          width: 60%;
+
+          .page-links {
+            li {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 1100px) {
+      .header-wrapper {
+        .menu-section {
+          width: 45%;
+
+          .page-links {
+            li {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+    // @media screen and (max-width: 480px) {
+    //   .header-wrapper {
+    //     .logo-section {
+    //       img {
+    //         width: 145px;
+    //       }
+    //     }
+    //     .menu-section {
+    //       padding-top: 0px;
+    //       width: 100%;
+
+    //       .page-links {
+    //         li {
+    //           font-size: 28px;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    // @media  screen and (max-width: 600px) {
+    //   .header-wrapper {
+    //     .logo-section {
+    //       padding-left: 12rem;
+    //       img {
+    //         width: 145px;
+    //       }
+    //     }
+    //     .menu-section {
+    //       padding-top: 0px;
+    //       width: 100%;
+    //     }
+    //   }
+    // }
+    // @media  screen and (max-width: 768px) {
+    //   .header-wrapper {
+    //     .logo-section {
+    //       padding-left: 3rem;
+    //       width: 2%; // padding-left: 12rem;
+    //       img {
+    //         width: 135px;
+    //       }
+    //     }
+    //     .menu-section {
+    //       padding-top: 60px;
+    //       width: 65%;
+    //       .page-links {
+    //         li {
+    //           font-size: 25px;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+
     //     @media screen and (max-width: 350px) {
     //       width: 100%;
 
@@ -650,11 +819,12 @@ table {
       .footer-menu {
         // background-color: red;
         width: 35%;
-        padding-left: 80px;
+        padding-left: 28rem;
 
-        margin: auto;
+        // margin: auto;
         .page-links {
           display: flex;
+          flex-wrap: wrap;
           justify-content: space-between;
 
           li {
@@ -688,6 +858,7 @@ table {
 
         // margin: auto;
         display: flex;
+        flex-wrap: wrap;
 
         justify-content: space-between;
         font-size: 28px;
@@ -723,7 +894,54 @@ table {
         }
       }
     }
+    @media screen and (max-width: 320px) {
+      .footer-wrapper {
+        .footer-menu {
+          width: 100%;
+          padding-left: 0px;
+          .page-links {
+            li {
+              .btn {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        .social-wrapper {
+          margin-top: 20px;
+          margin-left: 1.8rem;
+          width: 80%;
+          .social-link {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 480px) {
+      .footer-wrapper {
+        .footer-menu {
+          width: 100%;
+          padding-left: 0px;
+          .page-links {
+            li {
+              .btn {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        .social-wrapper {
+          margin-top: 20px;
+          margin-left: 1.8rem;
+          width: 80%;
+          .social-link {
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
+
   // @media screen and (max-width: 350px) {
   //   .wrapper {
   //     width: 100%;
@@ -839,9 +1057,9 @@ table {
     padding-top: 50px;
     h1 {
       font-size: 30px;
-      text-decoration: underline;
+      // text-decoration: underline;
       font-weight: 400;
-      color: #533939;
+      // color: #533939;
       padding-bottom: 10px;
     }
 
@@ -926,12 +1144,13 @@ table {
 
 //Contact page styles starts here
 
-.about-section {
+.contact-section {
   background-color: rgb(233, 224, 227);
   .wrapper {
     width: 90%;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: rgba(239, 235, 241, 0.973);
 
     .description-section {
@@ -957,18 +1176,38 @@ table {
         margin-top: 30px;
         margin-left: 25rem;
         margin-right: 25rem;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
 
         // background-color: green;
         input[type="text"],
         select,
         textarea {
           width: 100%;
-          padding: 12px;
+          padding: 14px;
           border: 1px solid #ccc;
           margin-top: 6px;
           // margin-left: 0px;
           margin-bottom: 16px;
           resize: vertical;
+        }
+        input,
+        textarea {
+          font-size: 0.9rem !important;
+        }
+
+        button[type="submit"] {
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          border: none;
+          background-color: rgb(231, 212, 212);
+          padding: 0.8rem 2rem;
+
+          &:hover {
+            background-color: rgb(204, 195, 195);
+            color: rgb(255, 255, 255);
+          }
         }
       }
     }
@@ -982,12 +1221,55 @@ table {
       }
       h2 {
         font-family: "Fira Sans", sans-serif;
-        font-size: 30px;
-        text-decoration: underline;
-        padding-top: 0px;
+        font-size: 25px;
+        // text-decoration: underline;
+        // padding-top: 0px;
         padding-bottom: 10px;
-        padding-left: 50px;
+        padding-left: 80px;
         text-align: left;
+        text-transform: uppercase;
+      }
+    }
+    @media screen and (max-width: 320px) {
+      .description-section {
+        h1 {
+          padding-top: 0rem;
+          font-size: 30px;
+        }
+
+        .form-section {
+          margin-left: 35px;
+        }
+      }
+      .social-wrapper {
+        margin-left: 30px;
+        .social-link {
+          font-size: 27px;
+        }
+        h2 {
+          padding-left: 50px;
+        }
+      }
+    }
+    @media screen and (max-width: 480px) {
+      .description-section {
+        h1 {
+          padding-top: 0rem;
+          font-size: 30px;
+        }
+
+        .form-section {
+          margin-left: 35px;
+        }
+      }
+      .social-wrapper {
+        margin-left: 30px;
+        .social-link {
+          font-size: 27px;
+        }
+        h2 {
+          padding-left: 50px;
+        }
       }
     }
   }
