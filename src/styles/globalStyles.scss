@@ -767,9 +767,9 @@ table {
 
     .description-section {
       width: 40%;
-      padding-left: 100px;
+      padding-left: 80px;
       // background-color: green;
-      text-align: center;
+      text-align: left;
       font-family: "Fira Sans", sans-serif;
 
       h1 {
@@ -785,6 +785,7 @@ table {
         font-weight: 100;
         padding-bottom: 20px;
         color: #ad9f9f;
+
         font-size: 22px;
       }
 
@@ -793,7 +794,6 @@ table {
         font-weight: 300;
         padding-top: 20px;
         font-size: 20px;
-        text-align: center;
       }
       .social-wrapper {
         margin: 40px 20px 0px 100px;
@@ -954,6 +954,10 @@ table {
         text-align: center;
       }
       .form-section {
+        margin-top: 30px;
+        margin-left: 25rem;
+        margin-right: 25rem;
+
         // background-color: green;
         input[type="text"],
         select,
@@ -962,6 +966,7 @@ table {
           padding: 12px;
           border: 1px solid #ccc;
           margin-top: 6px;
+          // margin-left: 0px;
           margin-bottom: 16px;
           resize: vertical;
         }

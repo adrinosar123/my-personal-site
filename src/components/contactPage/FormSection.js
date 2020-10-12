@@ -23,7 +23,7 @@ export default function FormSection() {
                     <textarea id="message" name="message" placeholder="Your Message..." 
                         
                       />
-                      <button type="submit" value="Submit"> Send</button>
+                      <input type="submit" value="submit"></input>
                         
                         </form> 
                         </div>
