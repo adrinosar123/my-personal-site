@@ -5,7 +5,7 @@ export default function FormSection() {
     return(
         <div className= "form-section">
         
-                <form action="/action_page.php">
+                <form action="/formSubmitted">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your first name...">
                         </input>

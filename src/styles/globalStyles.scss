@@ -1523,6 +1523,7 @@ table {
     @media screen and (min-width: 600px) {
       .description-section {
         width: 40%;
+        padding-left: 40px;
 
         h1 {
           margin-left: 10px;
@@ -1543,6 +1544,12 @@ table {
       .image-section {
         padding-top: 50px;
         width: 50%;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      .description-section {
+        width: 40%;
+        padding-left: 90px;
       }
     }
     @media screen and (min-width: 1430px) {
@@ -1714,6 +1721,7 @@ table {
         }
 
         button[type="submit"] {
+          cursor: pointer;
           font-size: 1.2rem;
           text-transform: uppercase;
           border: none;
@@ -1744,6 +1752,9 @@ table {
         padding-left: 50px;
         text-align: left;
         text-transform: uppercase;
+      }
+      @media screen and (min-width: 420px) {
+        margin-left: 80px;
       }
     }
     @media screen and (min-width: 800px) {
@@ -1831,5 +1842,40 @@ table {
     //     }
     //   }
     // }
+  }
+}
+
+.success {
+  background-color: rgb(233, 224, 227);
+
+  // min-height: 50rem;
+
+  .success-wrapper {
+    width: 90%;
+    margin: auto;
+    min-height: 40rem;
+    background-color: rgba(239, 235, 241, 0.973);
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+
+    h1 {
+      font-weight: 400;
+      font-size: xx-large;
+      padding: 20px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: large;
+      padding: 20px;
+    }
+
+    p {
+      font-weight: 400;
+
+      padding: 20px;
+    }
+    .Link {
+      color: rgb(50, 19, 223);
+    }
   }
 }
