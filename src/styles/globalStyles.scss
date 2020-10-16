@@ -946,6 +946,12 @@ table {
               .social-link {
                 font-size: 34px;
               }
+              @media screen and (min-width: 1430px) {
+                margin-left: 195px;
+                .social-link {
+                  font-size: 40px;
+                }
+              }
             }
           }
         }
@@ -1315,7 +1321,7 @@ table {
       }
     }
 
-    @media screen and (min-width: 1430px) {
+    @media screen and (min-width: 1410px) {
       .footer-wrapper {
         .footer-menu {
           width: 35%;
@@ -1369,7 +1375,7 @@ table {
 
 //About-Page styling starts here
 
-//about hero section styling starts here
+//about body-section styling starts here
 
 .about-section {
   // background-image: url("../images/about.jpg");
@@ -1382,10 +1388,12 @@ table {
     flex-wrap: wrap;
 
     .description-section {
-      width: 40%;
-      padding-left: 80px;
+      display: flex;
+      flex-wrap: wrap;
+      // width: 40%;
+      // padding-left: 80px;
       // background-color: green;
-      text-align: left;
+      // text-align: left;
       font-family: "Fira Sans", sans-serif;
 
       h1 {
@@ -1424,14 +1432,14 @@ table {
           text-decoration: underline;
           padding-top: 0px;
           padding-bottom: 10px;
-          padding-left: 100px;
+          padding-left: 10px;
           text-align: left;
         }
       }
     }
 
     .image-section {
-      width: 53%;
+      width: 52%;
       // height: 100%;
 
       padding-top: 10px;
@@ -1441,8 +1449,115 @@ table {
         width: 100%;
       }
     }
+    @media screen and (min-width: 100px) {
+      .description-section {
+        // width: 100%;
+        // background-color: red;
+        // text-align: center;
+        padding-left: 30px;
+        padding-right: 12px;
+        // text-align: center;
+        h1 {
+          padding-top: 3rem;
+          font-size: 30px;
+          margin-left: 60px;
+        }
+        span {
+          font-size: 19px;
+        }
+        p {
+          font-size: 19px;
+        }
+        .social-wrapper {
+          margin-left: 0px;
+          margin-right: 0px;
+
+          .social-link {
+            font-size: 30px;
+          }
+          h1 {
+            padding-left: 0px;
+          }
+        }
+      }
+      .image-section {
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 420px) {
+      .description-section {
+        width: 80%;
+        // background-color: red;
+        // text-align: center;
+        padding-left: 40px;
+        padding-right: 12px;
+        // text-align: center;
+        h1 {
+          padding-top: 3rem;
+          font-size: 30px;
+          margin-left: 150px;
+        }
+        span {
+          font-size: 19px;
+        }
+        p {
+          font-size: 19px;
+        }
+        .social-wrapper {
+          margin-left: 20px;
+          margin-right: 0px;
+
+          .social-link {
+            padding-left: 10px;
+            font-size: 30px;
+          }
+          h1 {
+            padding-left: 0px;
+          }
+        }
+      }
+      .image-section {
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .description-section {
+        width: 40%;
+
+        h1 {
+          margin-left: 10px;
+        }
+
+        .social-wrapper {
+          margin-left: 20px;
+
+          .social-link {
+            padding-left: 0px;
+            font-size: 25px;
+          }
+          h1 {
+            padding-left: 0px;
+          }
+        }
+      }
+      .image-section {
+        padding-top: 50px;
+        width: 50%;
+      }
+    }
+    @media screen and (min-width: 1430px) {
+      .description-section {
+        // background-color: red;
+        padding-left: 120px;
+        h1 {
+          padding-left: 40px;
+        }
+      }
+    }
   }
 }
+
+// about-description section styling starts here;
 
 .about-description {
   background-color: rgb(233, 224, 227);
@@ -1491,12 +1606,14 @@ table {
     }
     .resume-section {
       padding-bottom: 40px;
-      padding-left: 40px;
+
+      padding-left: 30px;
       font-family: "Fira Sans", sans-serif;
 
       p {
         font-family: "Poppins", sans-serif;
         margin: 15px;
+
         font-weight: 300;
         font-size: 20px;
         padding-bottom: 5px;
@@ -1506,7 +1623,7 @@ table {
         font-family: "Poppins", sans-serif;
         font-style: italic;
         font-weight: 400;
-        margin-left: 130px;
+        margin-left: 80px;
         text-decoration: none;
         font-size: 20px;
         padding: 5px;
@@ -1556,8 +1673,8 @@ table {
       justify-items: center;
       font-family: "Fira Sans", sans-serif;
       h1 {
-        padding-top: 5rem;
-        font-size: 50px;
+        padding-top: 1rem;
+        font-size: 30px;
         text-decoration: overline;
         font-weight: 400;
         padding-bottom: 20px;
@@ -1567,13 +1684,14 @@ table {
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 19px;
         text-align: center;
       }
       .form-section {
         margin-top: 30px;
-        margin-left: 25rem;
-        margin-right: 25rem;
+        padding-right: 30px;
+        margin-left: 1rem;
+        // margin-right: 25rem;
         text-transform: uppercase;
         display: flex;
         flex-wrap: wrap;
@@ -1582,8 +1700,8 @@ table {
         input[type="text"],
         select,
         textarea {
-          width: 100%;
-          padding: 14px;
+          width: 98%;
+          padding: 15px;
           border: 1px solid #ccc;
           margin-top: 6px;
           // margin-left: 0px;
@@ -1592,7 +1710,7 @@ table {
         }
         input,
         textarea {
-          font-size: 0.9rem !important;
+          font-size: 1.2rem !important;
         }
 
         button[type="submit"] {
@@ -1610,12 +1728,12 @@ table {
       }
     }
     .social-wrapper {
-      margin: 40px 20px 0px 500px;
+      margin: 40px 20px 0px 0px;
       // text-align: center;
       // background-color: red;
 
       .social-link {
-        font-size: 40px;
+        font-size: 28px;
       }
       h2 {
         font-family: "Fira Sans", sans-serif;
@@ -1623,52 +1741,95 @@ table {
         // text-decoration: underline;
         // padding-top: 0px;
         padding-bottom: 10px;
-        padding-left: 80px;
+        padding-left: 50px;
         text-align: left;
         text-transform: uppercase;
       }
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (min-width: 800px) {
       .description-section {
-        h1 {
-          padding-top: 0rem;
-          font-size: 30px;
-        }
-
         .form-section {
-          margin-left: 35px;
+          margin-left: 9rem;
+          padding-right: 0px;
+          width: 60%;
         }
       }
       .social-wrapper {
-        margin-left: 30px;
+        margin-left: 200px;
         .social-link {
-          font-size: 27px;
-        }
-        h2 {
-          padding-left: 50px;
+          font-size: 40px;
         }
       }
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width: 1024px) {
       .description-section {
-        h1 {
-          padding-top: 0rem;
-          font-size: 30px;
-        }
-
         .form-section {
-          margin-left: 35px;
+          margin-left: 15rem;
+          padding-right: 0px;
+          width: 50%;
+          input[type="text"],
+          select,
+          textarea {
+            width: 100%;
+          }
         }
       }
       .social-wrapper {
-        margin-left: 30px;
-        .social-link {
-          font-size: 27px;
-        }
-        h2 {
-          padding-left: 50px;
-        }
+        margin-left: 300px;
       }
     }
+    @media screen and (min-width: 1400px) {
+      .description-section {
+        .form-section {
+          margin-left: 24rem;
+          padding-right: 0px;
+          width: 40%;
+        }
+      }
+      .social-wrapper {
+        margin-left: 500px;
+      }
+    }
+    //   .description-section {
+    //     h1 {
+    //       padding-top: 0rem;
+    //       font-size: 30px;
+    //     }
+
+    //     .form-section {
+    //       margin-left: 35px;
+    //     }
+    //   }
+    //   .social-wrapper {
+    //     margin-left: 30px;
+    //     .social-link {
+    //       font-size: 27px;
+    //     }
+    //     h2 {
+    //       padding-left: 50px;
+    //     }
+    //   }
+    // }
+    // @media screen and (max-width: 480px) {
+    //   .description-section {
+    //     h1 {
+    //       padding-top: 0rem;
+    //       font-size: 30px;
+    //     }
+
+    //     .form-section {
+    //       margin-left: 35px;
+    //     }
+    //   }
+    //   .social-wrapper {
+    //     margin-left: 30px;
+    //     .social-link {
+    //       font-size: 27px;
+    //     }
+    //     h2 {
+    //       padding-left: 50px;
+    //     }
+    //   }
+    // }
   }
 }
